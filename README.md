@@ -1,6 +1,7 @@
 # Teoria-de-la-computacion
 Programa 1TC Comandos
-
+Instalar brew 
+con brew instalar Nanogui
 cd /Users/ian/Desktop/Escom/Teoria/Programa1/
 clang++ -std=c++17 -I./nanogui/include -I./nanogui/ext/eigen -I./nanogui/ext/nanovg/src -I/opt/homebrew/include -L./nanogui/build -L/opt/homebrew/lib -lnanogui -lglfw -lpthread -framework Cocoa -framework Metal -framework QuartzCore -o ProgramaUI nanogui/Programa1.cpp
 
